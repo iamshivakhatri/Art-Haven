@@ -1,0 +1,21 @@
+.Paintings{
+	background-color: #F5EBE0;
+	margin: 5px;
+}
+.Paintings img{
+	width: 300px;
+	border-bottom: 1px solid white;
+}
+.Paintings p{
+	padding-bottom: 10px;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 300;
+	text-decoration: none;
+}
+a:link { 
+	text-decoration: none;  
+}
+a{
+	color: inherit;
+}

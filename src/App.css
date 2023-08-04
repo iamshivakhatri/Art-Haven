@@ -1,0 +1,37 @@
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.underLine{
+  border-bottom: 1px solid #c1bdbd;
+  margin: 10px;
+}
+.leftNavBar img{
+  width: 300px;
+}
+.rightNavBar{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  float: right;
+}
+.paintings{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px; /* limit to 3 columns at most */
+  margin: 10px;
+}
+.App p{
+  color: gray;
+}
+@media only screen and (max-width: 479px) {
+  .leftNavBar img{
+    width: 150px;
+  }
+  .paintings{
+    justify-content: center;
+  }
+}

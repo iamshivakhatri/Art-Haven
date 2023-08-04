@@ -1,0 +1,90 @@
+.form{
+	display: grid;
+}
+.form p{
+	font-size: 30px;
+	text-align: center;
+	color: #c6c6c6;
+}
+.form input{
+	height: 20px;
+	width: 35vw;
+	padding: 10px;
+	font-size: 15px;
+	outline: none;
+	color: #c6c6c6;
+	background: none;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	margin-bottom: 15px;
+
+}
+.form textarea{
+	height: 210px;
+	width: 35vw;
+	padding: 10px;
+	font-size: 15px;
+	outline: none;
+	color: #c6c6c6;
+	background: none;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-family: inherit;
+}
+.form button{
+	height: 35px;
+	color: white;
+	background: #d5bdaf;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 36vw;
+}
+.form button:hover{
+	background-color: #f6ebe1;
+	transition: .5s ease-in;
+	border: none;
+	color: gray;
+}
+.Contact p{
+	color: gray;
+}
+.contact{
+	text-align: left;
+	margin: 10px;
+}
+.contact h2{
+	margin-top: 5px;
+	color: #747474;
+	font-weight: 300;
+}
+.contactPage{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.contactPage img{
+	margin-left: 20px;
+	width: 400px;
+	border-radius: 2px;
+}
+@media only screen and (max-width: 479px) {
+ 	.form{
+ 		width: 170%;
+ 	}
+ 	.form input{
+ 		width: 100%;
+ 	}
+ 	.form textarea{
+ 		width: 100%;
+ 	}
+ 	.form button{
+ 		width: 100px;
+ 	}
+ 	.gif img{
+ 		width: 100%;
+ 		margin: 0px;
+ 		margin-top: 10px;
+ 	}
+}

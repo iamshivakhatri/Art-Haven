@@ -1,0 +1,60 @@
+.detailImg img{
+  width: 400px;
+  border: 5px solid #f6ebe1;
+  border-radius: 5px;
+  padding: 2px;
+}
+.rounded-image {
+  border-radius: 50%;
+}
+.detail{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.detailInfo{
+  margin-left: 50px;
+  text-align: left;
+}
+.detailInfo h2{
+  margin-top: 5px;
+  font-weight: 300;
+  color: #747474;
+}
+.detailInfo p{
+  color: gray;
+}
+.detailInfo button{
+  background-color: #d5bdaf;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.detailInfo button:hover {
+  background-color: #f6ebe1;
+  color: gray;
+}
+.DetailPainting p{
+  color: #747474;
+}
+@media only screen and (max-width: 479px) {
+  .detail{
+    text-align: center;
+  }
+  .detailImg img{
+    width: 90%;
+    justify-content: center;
+  }
+  .detailInfo{
+    margin-left: 10px;
+    text-align: left;
+  }
+
+}
