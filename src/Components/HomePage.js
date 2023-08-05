@@ -5,6 +5,7 @@ import DetailPainting from './DetailPainting';
 import Parse from "parse/dist/parse.min.js";
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+{/**This is tested */}
 
 const app_id = process.env.REACT_APP_PARSE_APP_ID
 const host_url = process.env.REACT_APP_PARSE_HOST_URL
