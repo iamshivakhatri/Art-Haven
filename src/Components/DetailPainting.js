@@ -1,5 +1,5 @@
 import './DetailPainting.css';
-import logo from '../logo.png';
+import logo from './arthaven.png';
 import Parse from 'parse/dist/parse.min.js';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
@@ -41,7 +41,8 @@ function DetailPainting() {
       <div className="navBar">
         <div className="leftNavBar">
           <Link to={`/`}>
-            <img src={logo} alt="logo" />
+          <img style={{ width: "10%", height: "auto" }} src={logo} alt="logo" />
+
           </Link>
         </div>
         <div className="rightNavBar">

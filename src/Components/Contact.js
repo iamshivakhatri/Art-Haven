@@ -1,5 +1,5 @@
 import './Contact.css';
-import logo from '../logo.png';
+import logo from './arthaven.png';
 import HomePage from './HomePage';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
@@ -30,7 +30,8 @@ function Contact() {
       <div className="navBar">
         <div className="leftNavBar">
           <Link to={`/`}>
-            <img src={logo} alt="logo" />
+          <img style={{ width: "10%", height: "auto" }} src={logo} alt="logo" />
+
           </Link>
         </div>
         <div className="rightNavBar">

@@ -1,5 +1,5 @@
 import '../App.css';
-import logo from '../logo.png';
+import logo from './arthaven.png';
 import Paintings from './Paintings';
 import DetailPainting from './DetailPainting';
 import Parse from "parse/dist/parse.min.js";
@@ -43,7 +43,8 @@ function HomePage() {
     <div className="App">
       <div className="navBar">
         <div className="leftNavBar">
-          <img src={logo} alt="logo" />
+        <img style={{ width: "10%", height: "auto" }} src={logo} alt="logo" />
+
         </div>
         <div className="rightNavBar">
           <Link to="/about">
